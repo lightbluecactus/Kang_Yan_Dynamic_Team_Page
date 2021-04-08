@@ -2,7 +2,7 @@
 
 This is a one-page website where you can see biography of multiple team members. You can switch the content by clicking on nav list.
 
-##Note 
+## Note 
 All of the images are original - do not use without permission.
 Also, the text content is not related to realistic world or actual person.  
 
