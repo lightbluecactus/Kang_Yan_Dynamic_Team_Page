@@ -37,7 +37,8 @@ p, li
 	margin: 0 auto;
 	max-width: 1200px;
 	background-color: #FDF7F4;
-	display: grid;
+	position: relative;
+
 }
 
 ul
@@ -78,20 +79,28 @@ main
 	z-index: 10;
 }
 
+#sliderCon
+{
+	width: 200px;
+	height: 200px;	
+	margin: 100px auto 40px auto;
+	clip-path: circle(50% at 50% 50%);
+	overflow: hidden;
+}
+
 #profileImages
 {
-	margin-top: 100px;
-	margin-bottom: 40px;
+	width:404px;
+	position: relative;
+	transition: all .3s ease;
+/*	padding-left: 0;*/
 }
 
-#profileImages img
+/*#profileImages img
 {
-	clip-path: circle(50% at 50% 50%);
+	margin-left: 0px;
 }
-
-#intrduction
-{
-}
+*/
 
 #introText
 {
