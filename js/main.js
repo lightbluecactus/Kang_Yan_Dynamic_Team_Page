@@ -8,9 +8,9 @@
 			introText = document.querySelector("#introText");
 
 	const introContent = [
-		[`Team Page`, `Click on the nav list to see each member's biography!`, `#AF4F7F`],
-		[`Rainshadow`, `Click on the nav list to see each member's biography! 1`, `#A1367D`],
-		[`Ann`, `Click on the nav list to see each member's biography! 2`, `#9C72B8`]
+		[`Team Page`, `Welcome! Click on the nav list to see each member's biography.`, `#AF4F7F`],
+		[`Rainshadow`, `Now I would like to introduce my real identity to you - a witch! This is my fantastic costume for Halloween. Look at the velvet witch hat, and I'm ready to conjure snacks for my animal friends in backyard.`, `#A1367D`],
+		[`Ann`, `A 13-year-old young lady who is organizing a secret club in the abandoned attic... Well, I believe after seeing her zombie-like skin colour, everyone wants to know why she resurrected to live. That's a secret, too.`, `#9C72B8`]
 	];
 
 
