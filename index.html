@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, width=device-width">
-		<title>Web Template</title>
+		<title>Dynamic Team Page</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
 		<!-- link to reset first!!! -->
 		<link href="css/reset.css" rel="stylesheet" type="text/css" >
 		<link href="css/main.css" rel="stylesheet" type="text/css">
@@ -11,6 +13,35 @@
 	</head>
 	<body>
 		<!-- Content Goes Here -->
+		<h1 class="hidden">Dynamic Team Page</h1>
+		<div id="container">
+			<header>
+				<nav>
+					<h2 class="hidden">Main Navigation</h2>
+					<ul>
+						<li>Rainshadow</li>
+						<li>Ann</li>
+					</ul>
+				</nav>
+			</header>
+
+			<main>
+			<section id="profileTitle">
+				<div id="profileImages">
+					<img src="images/profile-rsd.jpg" alt="profile image">
+					<img src="images/profile-ann.jpg" alt="profile image">
+				</div>
+				<h2>Team Page</h2>
+			</section>
+
+			<section id="intrduction">
+				<h2 class="hidden">Introduction</h2>
+				<p id="introText">Click on the nav list to see each member's biography!</p>
+			</section>
+
+			</main>
+		</div>
+
 		<script src="js/main.js"></script>
 	</body>
 

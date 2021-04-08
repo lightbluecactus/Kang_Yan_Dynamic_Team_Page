@@ -15,3 +15,89 @@ ul
 {
 	list-style-type: none;
 }
+
+h2
+{
+	font-family: 'Alegreya', 'Times New Roman', serif;
+	font-weight: 700;
+	font-size: 60px;
+	color: #fff;
+}
+
+p, li
+{
+	font-family: 'Varela Round', 'Arial', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: #211F26;
+}
+
+#container
+{
+	margin: 0 auto;
+	max-width: 1200px;
+	background-color: #FDF7F4;
+	display: grid;
+}
+
+ul
+{
+	height: 80px;
+	width: 1200px;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-left: auto;
+	padding-right: 60px;
+}
+
+ul li
+{
+	text-align: center;
+	margin-right: 20px;
+	padding-top: 30px;
+	cursor: pointer;
+}
+
+main
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#profileTitle
+{
+	background-color: #A1367D;
+	height: 600px;
+	min-width: 450px;
+	text-align: center;
+	z-index: 10;
+}
+
+#profileImages
+{
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+
+#profileImages img
+{
+	clip-path: circle(50% at 50% 50%);
+}
+
+#intrduction
+{
+}
+
+#introText
+{
+	margin-top: 200px;
+	margin-left:15%;
+	display: block;
+}
+
+
