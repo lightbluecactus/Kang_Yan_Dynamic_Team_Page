@@ -37,7 +37,8 @@ p, li
 	margin: 0 auto;
 	max-width: 1200px;
 	background-color: #FDF7F4;
-	display: grid;
+	position: relative;
+
 }
 
 ul
@@ -71,32 +72,36 @@ main
 
 #profileTitle
 {
-	background-color: #A1367D;
+	background-color: #AF4F7F;
 	height: 600px;
 	min-width: 450px;
 	text-align: center;
 	z-index: 10;
 }
 
+#sliderCon
+{
+	width: 200px;
+	height: 200px;	
+	margin: 100px auto 40px auto;
+	clip-path: circle(50% at 50% 50%);
+	overflow: hidden;
+}
+
 #profileImages
 {
-	margin-top: 100px;
-	margin-bottom: 40px;
-}
-
-#profileImages img
-{
-	clip-path: circle(50% at 50% 50%);
-}
-
-#intrduction
-{
+	width:608px;
+	position: relative;
+	transition: all .3s ease;
 }
 
 #introText
 {
+	font-size: 18px;
+	line-height: 32px;
 	margin-top: 200px;
 	margin-left:15%;
+	margin-right: 15%;
 	display: block;
 }
 
